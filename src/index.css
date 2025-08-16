@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+QLD:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0 ;
+  padding: 0;
+
+}
+
+body {
+  
+  min-width: 1440px;
+  background-color: rgba(0, 0, 0, 0.962);
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ /*background-image: url("C:\Users\shrey\Desktop\React\test-app\bg2.jpeg");*/
+color: rgba(233, 245, 255, 0.784);
+
+}
+
+/* Your layout - untouched */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   margin-top: -8.8%;
+  margin-left: -5px;
+  color: #000;
+
+
+}
+.headerquote {
+  color: #000;
+  position: relative;
+}
+
+.bento1,
+.bento2,
+.bento3,
+.bento4,
+.bento5,
+.bento6{
+
+  box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.2),
+    0px 6px 20px rgba(0, 0, 0, 0.19);
+  border-radius: 45px;
+}
+.bento1,
+.bento2,
+.bento3,
+.bento4,
+.bento5,
+.bento6,
+.bento7,
+.bento8,
+.bento9
+{
+  position: relative;
+   background: rgba(67, 67, 67, 0.318);
+   backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.2),
+    0px 6px 20px rgba(0, 0, 0, 0.19);
+    color: rgba(233, 245, 255, 0.784);
+ 
+}
+.bento1 {
+  width: 550px;
+  height: 240px;
+  margin-left: 61.5%;
+  margin-top: 1%;
+  margin-bottom: -15.6%;
+ 
+}
+
+.bento2 {
+  width: 240px;
+  height: 400px;
+  margin-left: 1.5%;
+  margin-top: -15.8%;
+  text-align: left;
+  align-items: center;
+
+}
+.bento3 {
+  width: 550px;
+  height: 240px;
+  margin-top: 1.2%;
+  margin-left: 1.5%;
+  
+}
+
+.bento4 {
+  width: 260px;
+  height: 240px;
+  margin-top: -15.6%;
+  margin-left: 39%;
+ 
+  
+}
+
+.bento5 {
+  width: 240px;
+  height: 400px;
+  margin-top: -26.8%;
+  margin-left: 81%;
+}
+
+.bento6 {
+  width: 450px;
+  height: 240px;
+  margin-top: -42.5%;
+  margin-left: 18.6%;
+}
+.bento7 {
+  width: 335px;
+  height: 108px;
+  margin-top: 20.3%;
+  margin-left: 57.5%;
+  
+  border-radius: 30px;
+}
+
+.bento8 {
+  width: 335px;
+  height: 108px;
+  margin-top: -15%;
+  margin-left: 57.5%;
+   border-radius: 30px;
+   
+}
+.bento9 {
+  width: 174px;
+  height: 240px;
+  margin-top: -35%;
+  margin-left: 49.15%;
+   border-radius: 30px;
+   
+}
+
+.bento2-text{
+  
+  margin-left: 15%;
+  font-size: 25px;
+  
+}
+ .skills{
+  margin-left: 10%;
+color: rgba(233, 245, 255, 0.784);
+   font-size: 22px;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.3;
+ }
+
+
+
+.shiny-text.disabled {
+  animation: none;
+}
+.header {
+  align-items: center;
+  text-align: left;
+  font-family: 'Playwrite AU QLD', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: rgba(240, 248, 255, 0.734);
+  ;
+}
+.header1 {
+
+  
+  align-items: center;
+  text-align: left;
+  font-family: 'Playwrite AU QLD', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: rgba(240, 248, 255, 0.734);
+}
+.indented {
+  margin-left: 230px;
+  margin-top: -85px;
+  font-size: 22px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.3;
+}
+.small
+{
+  margin-left: 5%;
+  font-size: 8.5px;
+}
+a:link {
+  color: rgba(233, 245, 255, 0.784);
+  text-decoration: underline;
+}
+a:visited {
+  color: rgba(233, 245, 255, 0.784);
+  text-decoration: underline;
+}
+a:hover {
+  color: #5da991;
+  text-decoration: underline;
+}
+.about{
+  font-family: 'Playwrite AU QLD', sans-serif;
+  font-size: 11.8px;
+  width: 93%;
+  text-align: justify;
+  margin-left: 3.5%;
+  font-weight: 400;
+}
+.quote{
+  font-family: 'Caveat', cursive;
+  font-size: 30px;
+  width: 80%;
+  text-align: center;
+  margin-left: 10%;
+  font-weight: 800;
+  color: rgba(233, 245, 255, 0.784);
+}
+.headerq {
+  font-family: 'Playwrite AU QLD', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top:0;
+  margin-left: 10%;
+  color: #000;
+  line-height: 27px;
+}
+.body1{
+  margin-bottom: -17%;
+  
+}
+.icon
+{
+  position: absolute;
+  margin-top: 6%;
+  margin-left: 75%;
+  width:65px;
+  height: 65px;
+  border-radius: 32.5px;
+  background-image: url("C:\Users\shrey\React\image.png");
+  background-size: cover;
+  background-position: center;
+
+}
+.project
+{
+  position: absolute;
+  margin-left: 10%;
+  margin-top: 5%;
+  font-size: 30px;
+  width:60%;
+}
+.pabout
+{
+  font-family: 'Courier New', Courier, monospace;
+  position: absolute;
+  margin-left: 10%;
+  margin-top: 20%;
+}
+.pfp{
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  background-image: url("C:\Users\shrey\React\portfolioreact\src\pfp.jpg");
+  opacity: 80%;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  margin-top: 20%;
+  margin-left: 15%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: aliceblue;
+}
